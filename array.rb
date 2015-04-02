@@ -16,7 +16,7 @@ class Array
       elsif s2.empty?
         self[s] = s1.shift.to_i
       else
-        self[s] = (s1[0] < s2[0] ? s1.shift.to_i : s2.shift.to_i)
+        self[s] = (s1[0] <= s2[0] ? s1.shift.to_i : s2.shift.to_i)
       end
     end
     self

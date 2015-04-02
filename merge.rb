@@ -1,6 +1,6 @@
 require './arrays'
 require './array'
 
-short = SHORT
-puts short.shuffle.to_s
-puts short.shuffle.merge_sort!.to_s
+long = LONG
+puts long.shuffle.to_s
+puts long.shuffle.merge_sort!.to_s
